@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal website of Francesco Piccolo. Work, projects, stories, and writing.">
+  <title>Francesco Piccolo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- THESIS: A personal writing site in the plain-web tradition explicitly requested by the user.
+  OWN-WORLD: White paper, charcoal text, blue underlined links, user-requested Helvetica; no ornamental containers.
+  STORY: Meet Francesco, browse six essays, and follow the link to MoAH.
+  FIRST VIEWPORT: Narrow column, navigation and language toggle, personal greeting, and the start of a long-form biography.
+  FORM: Brief-pinned plain personal homepage overrides seed dac9621a.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md -->
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="page">
+    <header>
+      <nav aria-label="Main navigation">
+        <a href="#home" data-page="home">Home</a>
+        <a href="#blog" data-page="blog">Blog</a>
+        <a href="https://francescoopiccolo.github.io/moah-website/index.html">MoAH</a>
+      </nav>
+      <div class="languages" role="group" aria-label="Language">
+        <button type="button" data-language="en" aria-pressed="true">EN</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-language="it" aria-pressed="false">IT</button>
+      </div>
+    </header>
+    <main id="content" tabindex="-1"></main>
+    <footer>Francesco Piccolo</footer>
+  </div>
+</body>
+</html>
